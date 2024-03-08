@@ -1,0 +1,42 @@
+.contenedor {
+    display: flex;
+    background-color: aqua;
+}
+
+.caja {
+    flex: 1;
+    margin-right: 10px;
+    background-color: sandybrown;
+}
+
+.subcaja {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin-bottom: 10px;
+    position: relative; /*PARA CENTREAR*/
+    display: flex;
+}
+
+.subcaja-vertical {
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+
+.flexos
+{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 10px;
+    position: relative; /*PARA CENTREAR*/
+    display: flex;  /*Cajas que se ajustan al dispositivo*/
+    flex-direction: row; /*Alinear las cajas con la forma que querramos*/
+    flex-wrap: wrap; /*El wrap No cambia el tamaño de las cajas de adentro, es muy util*/
+}
+
+.subcaja:last-child {
+    margin-bottom: 0;
+}
